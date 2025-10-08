@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Official Resume - Your Name</title>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    .container {
+      max-width: 850px;
+      margin: 40px auto;
+      background-color: #fff;
+      padding: 40px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      border-bottom: 3px solid #0056b3;
+      padding-bottom: 20px;
+    }
+    .photo {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #0056b3;
+      margin-right: 30px;
+    }
+    .header-info {
+      flex-grow: 1;
+    }
+    .header-info h1 {
+      margin: 0;
+      font-size: 36px;
+      color: #0056b3;
+    }
+    .header-info p {
+      margin: 5px 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: #333;
+    }
+    .contact-info p {
+      margin: 4px 0;
+      font-size: 14px;
+      color: #555;
+    }
+    section {
+      margin-top: 35px;
+    }
+    section h2 {
+      font-size: 24px;
+      color: #0056b3;
+      border-left: 5px solid #0056b3;
+      padding-left: 10px;
+      margin-bottom: 15px;
+    }
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+    .education-item, .experience-item {
+      margin-bottom: 20px;
+    }
+    .item-title {
+      font-weight: 700;
+      font-size: 18px;
+      color: #222;
+    }
+    .item-subtitle {
+      font-style: italic;
+      color: #555;
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+    .item-duration {
+      color: #777;
+      font-size: 13px;
+    }
+    .summary p {
+      line-height: 1.6;
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <header class="header">
+      <img src="durga.jpg" alt="Your Photo" class="photo" />
+      <div class="header-info">
+        <h1>Pinki Khetaram Ghanchi</h1>
+        <p>Software Engineer</p>
+        <div class="contact-info">
+          <p>Email: pinkighanchi@gmail.com</p>
+          <p>Phone: +1 234 567 890</p>
+          <p>Address: 1234 Mumbai, India</p>
+          <p>Website: www.yourwebsite.com</p>
+        </div>
+      </div>
+    </header>
+
+    <section class="summary">
+      <h2>Introduction</h2>
+      <p>
+        Experienced software engineer with over 5 years in full-stack development, specializing in building scalable web applications and improving user experience. Strong background in modern JavaScript frameworks and database management.
+      </p>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>JavaScript (ES6+), TypeScript</li>
+        <li>React, Angular, Vue.js</li>
+        <li>Node.js, Express</li>
+        <li>HTML5, CSS3, SASS, Bootstrap</li>
+        <li>SQL, MongoDB</li>
+        <li>Git, Docker, CI/CD pipelines</li>
+      </ul>
+    </section>
+
+    <section class="experience">
+      <h2>Work Experience</h2>
+
+      <div class="experience-item">
+        <div class="item-title">Senior Software Engineer</div>
+        <div class="item-subtitle">ABC Technologies, New York, NY</div>
+        <div class="item-duration">Jan 2021 – Present</div>
+        <ul>
+          <li>Lead front-end development team for large scale enterprise projects.</li>
+          <li>Architected and implemented RESTful APIs using Node.js and Express.</li>
+          <li>Optimized application performance, reducing load times by 40%.</li>
+        </ul>
+      </div>
+
+      <div class="experience-item">
+        <div class="item-title">Software Developer</div>
+        <div class="item-subtitle">XYZ Solutions, San Francisco, CA</div>
+        <div class="item-duration">Jul 2017 – Dec 2020</div>
+        <ul>
+          <li>Developed and maintained client-facing web applications.</li>
+          <li>Collaborated with UI/UX designers to enhance usability and visual design.</li>
+          <li>Implemented unit testing and continuous integration workflows.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+
+      <div class="education-item">
+        <div class="item-title">Master of Science in Computer Science</div>
+        <div class="item-subtitle">University of Technology, City, Country</div>
+        <div class="item-duration">2015 – 2017</div>
+        <p>Thesis: “Improving Performance of Web Applications Using Progressive Web App Techniques”</p>
+      </div>
+
+      <div class="education-item">
+        <div class="item-title">Bachelor of Science in Computer Science</div>
+        <div class="item-subtitle">University of Technology, City, Country</div>
+        <div class="item-duration">2011 – 2015</div>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
